@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g1CTb1XM03QFt1eVTpr1ELZW8iv8hwudNoux/3w68jY=",
+  "Hash": "WgSDmKV3o5Paf5Xx0axKswsiyEVCib7ydHHSgrFzmko=",
   "Source": "ProFit",
   "BasePath": "_content/ProFit",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\first people on ProFit.png"
+    },
+    {
+      "Identity": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\ProFit center.png",
+      "SourceId": "ProFit",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\",
+      "BasePath": "_content/ProFit",
+      "RelativePath": "images/ProFit center.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ProFit center.png"
     },
     {
       "Identity": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\ProFit fitness center.png",

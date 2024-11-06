@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded',function (){
     window.addEventListener('scroll',function (){
-        var header= document.getElementById('haeder-top');
+        var header= document.getElementById('header-top');
         var scrollTop =window.scrollY;
         var maxScroll =250;
 
-        var opacity =Math.min(scrollTop/maxScroll,1);
-        header.style.backgroundColor=`rgba(255,165,0,${opacity})`;
+        var opacity =Math.min(scrollTop/maxScroll,0.7);
+        header.style.backgroundColor=`rgb(30,144,255,${opacity})`;
+        header.style.backdropFilter=`blur(${opacity*10}px)`
     });
 });

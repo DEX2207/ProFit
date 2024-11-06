@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProFit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1231a22383883d2f86aa3446af9e72b605836e6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProFit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProFit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
