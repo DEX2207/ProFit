@@ -18,8 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\INTER (E)\1111\учебная практика\ProFit\ProFit
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/INTER (E)/1111/учебная практика/ProFit/ProFit/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/INTER (E)/1111/учебная практика/ProFit/ProFit/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/INTER (E)/1111/учебная практика/ProFit/ProFit/Views/Home/SiteInformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaXRlSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/INTER (E)/1111/учебная практика/ProFit/ProFit/Views/Shared/_LoginRegistrationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblJlZ2lzdHJhdGlvblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/INTER (E)/1111/учебная практика/ProFit/ProFit/Views/Shared/_ValidationScriptsPartial.cshtml]

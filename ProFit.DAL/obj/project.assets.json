@@ -20,6 +20,7 @@
       "packagesPath": "C:\\Users\\Декс\\.nuget\\packages\\",
       "outputPath": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit.DAL\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],

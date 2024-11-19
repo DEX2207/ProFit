@@ -1,0 +1,12 @@
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\bin\Debug\net8.0\ProFit.Domain.deps.json
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\bin\Debug\net8.0\ProFit.Domain.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\bin\Debug\net8.0\ProFit.Domain.pdb
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.AssemblyInfoInputs.cache
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.AssemblyInfo.cs
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.csproj.CoreCompileInputs.cache
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.sourcelink.json
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\refint\ProFit.Domain.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ProFit.Domain.pdb
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit.Domain\obj\Debug\net8.0\ref\ProFit.Domain.dll

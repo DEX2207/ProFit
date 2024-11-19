@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProFit.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1231a22383883d2f86aa3446af9e72b605836e6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1eace6ff3c179136c6f84832f006b9c8c5d05b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProFit.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProFit.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

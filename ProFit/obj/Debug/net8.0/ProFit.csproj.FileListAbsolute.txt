@@ -29,3 +29,7 @@ D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\ProFit.genruntimeconfig.cache
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\ref\ProFit.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\ProFit.sourcelink.json
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.Domain.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.Domain.pdb
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\ProFit.csproj.AssemblyReference.cache
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\ProFit.csproj.Up2Date

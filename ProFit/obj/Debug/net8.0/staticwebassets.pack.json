@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\ProFit.bundle.scp.css"
     },
     {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\login_and_registration.css",
+      "PackagePath": "staticwebassets\\css\\login_and_registration.css"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\media_style.css",
+      "PackagePath": "staticwebassets\\css\\media_style.css"
+    },
+    {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\shared.css",
       "PackagePath": "staticwebassets\\css\\shared.css"
     },
@@ -21,8 +33,36 @@
       "PackagePath": "staticwebassets\\images\\ProFit fitness center.png"
     },
     {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\address.png",
+      "PackagePath": "staticwebassets\\images\\address.png"
+    },
+    {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\first people on ProFit.png",
       "PackagePath": "staticwebassets\\images\\first people on ProFit.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\mail.png",
+      "PackagePath": "staticwebassets\\images\\mail.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\Фитнесс центр зал.jpg",
+      "PackagePath": "staticwebassets\\images\\Фитнесс центр зал.jpg"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\тренер.jpg",
+      "PackagePath": "staticwebassets\\images\\тренер.jpg"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\js\\home_script.js",
+      "PackagePath": "staticwebassets\\js\\home_script.js"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\js\\login_and_registration_script.js",
+      "PackagePath": "staticwebassets\\js\\login_and_registration_script.js"
     },
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\js\\shared_script.js",

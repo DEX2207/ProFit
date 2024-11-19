@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Contact";
+}
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true"/>
+<link rel="stylesheet" href="~/css/shared.css" asp-append-version="true"/>
+<link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true">
+<div class="container-section" id="contact">
+    <h2 class="info-section">Мы находимся</h2>
+    <div class="map">
+        <script 
+            type="text/javascript" 
+            charset="utf-8" 
+            async 
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10de0766511d76c99f3b769b6727f0c2844090479324f30aac5b68d597b6d046&amp;width=100%&amp;height=500&amp;lang=ru_RU&amp;scroll=true">
+        </script>
+    </div>
+        <h2 class="info-section">Написать сообщение</h2>
+
+        <div class="block-message">
+            <p>Вы можете написать нам на почту здесь:</p>
+
+            <div class="message-text">
+                <label>Сообщение:</label>
+                <span></span>
+                <textarea class="text"></textarea>
+            </div>
+
+            <div class="message-button">
+                <button class="button" type="submit">Отправить</button>
+            </div>
+        </div>
+    <h2 class="info-section"></h2>
+    <div class="container-row">
+        <div class="row-item">
+            <img class="item-img" src="~/images/mail.png" alt=""/>
+            <h2>Email</h2>
+            <p>
+                TTIiP@@mail.ru
+            </p>
+        </div>
+        <div class="row-item">
+            <img class="item-img" src="~/images/phone.png" alt=""/>
+            <h2>Телефон</h2>
+            <p>
+                + (373) 778-14-994
+            </p>
+        </div>
+        <div class="row-item">
+            <img class="item-img" src="~/images/address.png" alt=""/>
+            <h2>Адрес</h2>
+            <p>
+                г.Тирасполь, ул. Мира 50/22
+            </p>
+        </div>
+    </div>
+</div>

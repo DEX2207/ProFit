@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "ProFit/1.0.0": {
+        "dependencies": {
+          "ProFit.Domain": "1.0.0"
+        },
         "runtime": {
           "ProFit.dll": {}
+        }
+      },
+      "ProFit.Domain/1.0.0": {
+        "runtime": {
+          "ProFit.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "ProFit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProFit.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,4 +8,11 @@ document.addEventListener('DOMContentLoaded',function (){
         header.style.backgroundColor=`rgb(30,144,255,${opacity})`;
         header.style.backdropFilter=`blur(${opacity*10}px)`
     });
+    function toggleMenu(){
+        const sideMenu=document.getElementById('side-menu');
+        
+        sideMenu.classList.toggle('active');
+    }
+    
+    document.getElementById('hamburger').addEventListener('click',toggleMenu);
 });
