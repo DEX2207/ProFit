@@ -29,15 +29,13 @@
 }
 .block_item{
     width: 50%;
+    text-align: center;
 }
 .overlay{
     position: absolute;
     width: 100%;
     height:100%;
     z-index: 900;
-}
-.block_item{
-    text-align: center;
 }
 .block-item_title{
     font-size: 1.2rem;
@@ -105,7 +103,7 @@
 span{
     cursor: text;
     position: absolute;
-    top: 3%;
+    top: 31%;
     left: 16px;
     color: rgb(131,131,131);
     transition: all 0.3s ease-in-out;
