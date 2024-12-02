@@ -137,3 +137,6 @@ D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\AutoMapper.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.Service.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.Service.pdb

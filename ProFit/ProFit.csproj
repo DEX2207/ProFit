@@ -9,9 +9,11 @@
     <ItemGroup>
       <ProjectReference Include="..\ProFit.DAL\ProFit.DAL.csproj" />
       <ProjectReference Include="..\ProFit.Domain\ProFit.Domain.csproj" />
+      <ProjectReference Include="..\ProFit.Service\ProFit.Service.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

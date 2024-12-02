@@ -18,7 +18,4 @@ document.addEventListener('DOMContentLoaded',function (){
             cardWrapper.style.transform=`translateX(-${currentSlide*100}%)`;
         }
     }
-    
-    document.querySelector('.arrow.right').addEventListener('click',next);
-    document.querySelector('.arrow.left').addEventListener('click',prev);
 })

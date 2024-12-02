@@ -112,12 +112,15 @@ document.addEventListener('DOMContentLoaded',function () {
 
     function displayErrors(errors, errorContainer) {
         errorContainer.innerHTML = '';
-        errors.forEach(error => {
-            const errorMessage = document.createElement('div');
-            errorMessage.classList.add('error');
-            errorMessage.textContent = error;
-            errorContainer.appendChild(errorMessage);
-        });
+        if(errors.count()>0){
+            errors.forEach(error => {
+                const errorMessage = document.createElement('div');
+                errorMessage.classList.add('error');
+                errorMessage.textContent = error;
+                errorContainer.appendChild(errorMessage);
+            });
+        }
+        
     }
 
     function cleaningAndClosingForm(form, errorContainer) {
