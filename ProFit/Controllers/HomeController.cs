@@ -75,16 +75,13 @@ public class HomeController : Controller
         {
             var user = _mapper.Map<User>(model);
 
-            var response = await _accountService.Register(user);
-            if (response.StatusCode == Domain.Enum.StatusCode.Ok)
-            {
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(response.Data));
-                
-                return Ok(model);
-            }
+            var confirm = _mapper.Map<ConfirmEmailViewModel>(model);
+
+            var code = await _accountService.Register(user);
+
+            confirm.GeneratedCode = code.Data;
             
-            ModelState.AddModelError("",response.Description);
+            return Ok(confirm);
         }
         
         var errors = ModelState.Values.SelectMany(v => v.Errors)
@@ -93,6 +90,27 @@ public class HomeController : Controller
         return BadRequest(errors);
     }
 
+    [HttpPost]
+
+    public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailViewModel confirmEmailViewModel)
+    {
+        var user = _mapper.Map<User>(confirmEmailViewModel);
+
+        var response = await _accountService.ConfirmEmail(user,confirmEmailViewModel.GeneratedCode,confirmEmailViewModel.CodeConfirm);
+
+        if (response.StatusCode==Domain.Enum.StatusCode.Ok)
+        {
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(response.Data));
+            return Ok(confirmEmailViewModel);
+        }
+        ModelState.AddModelError("",response.Description);
+
+        var errors = ModelState.Values.SelectMany(v => v.Errors)
+            .Select(e => e.ErrorMessage)
+            .ToList();
+        return BadRequest(errors);
+    }
     [AutoValidateAntiforgeryToken]
     public async Task<IActionResult> Logout()
     {

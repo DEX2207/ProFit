@@ -1,15 +1,25 @@
-function hiddenOpen_CloseClick() {
-    let x = document.querySelector(".container-login-registration");
-    if (x.style.display == "none") {
-        x.style.display = "grid"
-    } else {
-        x.style.display = "none"
-    }
-}
-document.getElementById("overlay").addEventListener("click", hiddenOpen_CloseClick);
-document.getElementById("click-to-hide").addEventListener("click", hiddenOpen_CloseClick);
-document.getElementById("side-menu-button-click-on-hide").addEventListener("click", hiddenOpen_CloseClick);
 document.addEventListener('DOMContentLoaded',function () {
+    function hiddenOpen_CloseClick(container) {
+        let x = document.querySelector(container);
+        if (x.style.display == "none") {
+            x.style.display = "grid"
+        } else {
+            x.style.display = "none"
+        }
+    }
+    document.getElementById("overlay").addEventListener("click", function (){
+        hiddenOpen_CloseClick(".container-login-registration")
+    });
+    document.getElementById("click-to-hide").addEventListener("click", function (){
+        hiddenOpen_CloseClick(".container-login-registration")
+    });
+    document.getElementById("side-menu-button-click-on-hide").addEventListener("click", function (){
+        hiddenOpen_CloseClick(".container-login-registration")
+    });
+    document.getElementById("button_confirm_close").addEventListener("click",function (){
+        hiddenOpen_CloseClick(".confirm-email-container")
+    })
+    
     const signInBtn = document.querySelector('.signin-btn');
     const signUpBtn = document.querySelector('.signup-btn');
     const formBox = document.querySelector('.form-box');
@@ -82,7 +92,9 @@ document.addEventListener('DOMContentLoaded',function () {
 
                     console.log('Успешный ответ:', data);
                     
-                    location.reload()
+                    hiddenOpen_CloseClick(".confirm-email-container")
+                    
+                    confirmEmail(data)
                 })
                 .catch(err => {
                     displayErrors(err, errorContainer);
@@ -112,17 +124,14 @@ document.addEventListener('DOMContentLoaded',function () {
 
     function displayErrors(errors, errorContainer) {
         errorContainer.innerHTML = '';
-        if(errors.count()>0){
+        
             errors.forEach(error => {
                 const errorMessage = document.createElement('div');
                 errorMessage.classList.add('error');
                 errorMessage.textContent = error;
                 errorContainer.appendChild(errorMessage);
             });
-        }
-        
     }
-
     function cleaningAndClosingForm(form, errorContainer) {
         errorContainer.innerHTML = '';
         for (const key in form) {
@@ -130,6 +139,27 @@ document.addEventListener('DOMContentLoaded',function () {
                 form[key].value = '';
             }
         }
-        hiddenOpen_CloseClick();
+        hiddenOpen_CloseClick(".container-login-registration");
+    }
+    
+    function confirmEmail(body){
+        document.getElementById("send_confirm").addEventListener('click',function (){
+            body.codeConfirm=document.getElementById('code_confirm').value;
+            const requestURL='/Home/ConfirmEmail';
+            
+            sendRequest('POST',requestURL,body)
+                .then(data=>{
+                    console.log("Код подтверждения:", data);
+                    
+                    hiddenOpen_CloseClick(".confirm-email-container");
+                    
+                    location.reload();
+                })
+                .catch(err=>{
+                    displayErrors(err, errorContainer);
+                    
+                    console.log(err)
+                })
+        })
     }
 })

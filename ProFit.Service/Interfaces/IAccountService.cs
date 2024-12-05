@@ -6,6 +6,8 @@ namespace ProFit.Service.Interfaces;
 
 public interface IAccountService
 {
-    Task<BaseResponse<ClaimsIdentity>> Register(User model);
+    Task<BaseResponse<string>> Register(User model);
     Task<BaseResponse<ClaimsIdentity>> Login(User model);
+
+    Task<BaseResponse<ClaimsIdentity>> ConfirmEmail(User model, string code, string confirmCode);
 }

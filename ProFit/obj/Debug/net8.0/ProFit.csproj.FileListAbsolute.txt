@@ -140,3 +140,7 @@ D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\AutoMapper.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.Service.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.Service.pdb
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\FluentValidation.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\MailKit.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\MimeKit.dll
