@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using Type = ProFit.Domain.Enum.Type;
 
 namespace ProFit.Domain.ModelsDb;
 
@@ -11,4 +12,5 @@ public class ProductDb
     [Column("Description")] public string Description { get; set; }
     [Column("price")] public double Price { get; set; }
     [Column("validityPeriod")] public int ValidityPeriod { get; set; }
+    [Column("type")] public Type Type { get; set; }
 }

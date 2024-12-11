@@ -212,4 +212,46 @@ public class AccountService:IAccountService
             };
         }
     }
+
+    public async Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model)
+    {
+        try
+        {
+            var userDb = new UserDb();
+            if (await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) == null)
+            {
+                model.Password = "google";
+                model.CreatedAt = DateTime.Now;
+
+                userDb = _mapper.Map<UserDb>(model);
+
+                await _userStorage.Add(userDb);
+
+                var resultRegister = AuthenticateUserHelper.Authenticate(model);
+
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Data = resultRegister,
+                    Description = "Объект добавился",
+                    StatusCode = StatusCode.Ok
+                };
+            }
+
+            var resultLogin = AuthenticateUserHelper.Authenticate(model);
+            return new BaseResponse<ClaimsIdentity>()
+            {
+                Data = resultLogin,
+                Description = "Объект уже был создан",
+                StatusCode = StatusCode.Ok
+            };
+        }
+        catch (Exception ex)
+        {
+            return new BaseResponse<ClaimsIdentity>()
+            {
+                Description = ex.Message,
+                StatusCode = StatusCode.IternalServerError
+            };
+        }
+    }
 }

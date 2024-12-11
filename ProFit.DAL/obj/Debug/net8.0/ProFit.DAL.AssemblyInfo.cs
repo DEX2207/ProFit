@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProFit.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c46ff443ce6d3880d65482154dc892b673235e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74c08e9fab4c88854d7a998323f9a4d1d7c39e06")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProFit.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProFit.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

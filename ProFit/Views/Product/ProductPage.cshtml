@@ -1,0 +1,39 @@
+@using Type = ProFit.Domain.Enum.Type
+@model ProFit.Domain.ViewModels.ProductPageViewModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Продукт";
+}
+<div class="product">
+    <div class="product-header">
+        <h1>@Model.Name</h1>
+    </div>
+    <div class="product-details">
+        <div class="product-images">
+            <img id="main-image" src="@Model.PathImg" alt="@Model.Name" class="main-image">
+            <div class="thumbnail-container">
+                <img src="@Model.PathImg" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+                @foreach (var picture in Model.PictureProducts)
+                {
+                    <img src="@picture.PathImg" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+                }
+            </div>
+            <script>
+                function changeImage(thumbnail){
+                    const mainImage=document.getElementById("main-image");
+                    mainImage.src=thumbnail.src;
+                }
+            </script>
+        </div>
+        
+        <div class="product-info">
+            <h1>@Model.Name</h1>
+            <p class="description">@Model.Description</p>
+            @if (Model.Type == Type.Subscription)
+            {
+                <p><strong>Срок действия абонемента:</strong>@Model.ValidityPeriod дней</p>
+            }
+            <p><strong>Цена: </strong>@Model.Price $</p>
+        </div>
+    </div>
+</div>

@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded',function () {
     const signUpBtn = document.querySelector('.signup-btn');
     const formBox = document.querySelector('.form-box');
     const block = document.querySelector('.block');
-
+    
     if (signInBtn && signUpBtn) {
         signUpBtn.addEventListener('click', function () {
             formBox.classList.add('active');
@@ -101,6 +101,16 @@ document.addEventListener('DOMContentLoaded',function () {
 
                     console.log(err);
                 });
+        });
+    }
+
+    const google=document.querySelectorAll('.google')
+    
+    if(google){
+        google.forEach(btn=>{ 
+           btn.addEventListener('click',function (){
+              window.location.href=`/Home/AuthenticationGoogle?returnUrl=${encodeURIComponent(window.location.href)}`; 
+           });
         });
     }
 

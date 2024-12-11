@@ -115,7 +115,6 @@ span{
     background-color: rgb(30,144,255);
     color:#fff;
     padding: 10px 50px;
-    margin-top: 10px;
     font-size: inherit;
     width: fit-content;
 }
@@ -215,4 +214,14 @@ span{
     align-items: center;
     background: rgba(0,0,0,0.5);
     z-index: 1000;
+}
+.google-img{
+    width: 20%;
+}
+.form-btn-container{
+    display: flex;
+    align-items: center;
+}
+.form-btn-container a{
+    display: contents;
 }

@@ -50,6 +50,53 @@ namespace ProFit.DAL.Migrations
                     b.ToTable("Basket");
                 });
 
+            modelBuilder.Entity("ProFit.Domain.ModelsDb.CategoriesDb", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<string>("PathIMG")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("pathIMG");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("integer")
+                        .HasColumnName("type");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("ProFit.Domain.ModelsDb.PictureProductDb", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<Guid>("IdProduct")
+                        .HasColumnType("uuid")
+                        .HasColumnName("idProduct");
+
+                    b.Property<string>("PathIMG")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("pathIMG");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PictureProduct");
+                });
+
             modelBuilder.Entity("ProFit.Domain.ModelsDb.ProductDb", b =>
                 {
                     b.Property<Guid>("Id")
@@ -76,6 +123,10 @@ namespace ProFit.DAL.Migrations
                         .HasColumnType("double precision")
                         .HasColumnName("price");
 
+                    b.Property<int>("Type")
+                        .HasColumnType("integer")
+                        .HasColumnName("type");
+
                     b.Property<int>("ValidityPeriod")
                         .HasColumnType("integer")
                         .HasColumnName("validityPeriod");
@@ -93,7 +144,7 @@ namespace ProFit.DAL.Migrations
                         .HasColumnName("id");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("createdAt");
 
                     b.Property<string>("Email")

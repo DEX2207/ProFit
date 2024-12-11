@@ -25,6 +25,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\2month.png",
+      "PackagePath": "staticwebassets\\images\\2month.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\3month.png",
+      "PackagePath": "staticwebassets\\images\\3month.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\6month.png",
+      "PackagePath": "staticwebassets\\images\\6month.png"
+    },
+    {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\ProFit center.png",
       "PackagePath": "staticwebassets\\images\\ProFit center.png"
     },
@@ -37,16 +49,36 @@
       "PackagePath": "staticwebassets\\images\\address.png"
     },
     {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\clothes.png",
+      "PackagePath": "staticwebassets\\images\\clothes.png"
+    },
+    {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\first people on ProFit.png",
       "PackagePath": "staticwebassets\\images\\first people on ProFit.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\food.png",
+      "PackagePath": "staticwebassets\\images\\food.png"
     },
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\mail.png",
       "PackagePath": "staticwebassets\\images\\mail.png"
     },
     {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\month.png",
+      "PackagePath": "staticwebassets\\images\\month.png"
+    },
+    {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\phone.png",
       "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\photo_google.png",
+      "PackagePath": "staticwebassets\\images\\photo_google.png"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\year.png",
+      "PackagePath": "staticwebassets\\images\\year.png"
     },
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\images\\Фитнесс центр зал.jpg",
@@ -63,6 +95,10 @@
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\js\\login_and_registration_script.js",
       "PackagePath": "staticwebassets\\js\\login_and_registration_script.js"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\js\\services_script.js",
+      "PackagePath": "staticwebassets\\js\\services_script.js"
     },
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\js\\shared_script.js",

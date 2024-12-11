@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="~/css/login_and_registration.css"/>
 
-<div class="container-login-registration">
+<div class="container-login-registration" style="display: none">
     <div class="block-container">
         <div class="block">
             <section class="block_item block-item">
@@ -23,7 +23,10 @@
                     <input type="password" placeholder=" " id="signin_password"/>
                     <span>Пароль</span>
                 </label>
-                <div class="form-btn form_btn_signin">Войти</div>
+                <div class="form-btn-container">
+                    <div class="form-btn form_btn_signin">Войти</div>
+                    <a class="google"><img src="~/images/photo_google.png" class="google-img"></a>
+                </div>
                 <div id="error-messages-signin"></div>
             </form>
             <form class="form form_signup">
@@ -48,8 +51,7 @@
                     <input type="password" placeholder=" " id="signup_confirm_password"/>
                     <span>Подтвердите пароль</span>
                 </label>
-
-                <div class="form-btn form_btn_signup">Зарегистрироваться</div>
+                    <div class="form-btn form_btn_signup">Зарегистрироваться</div>
                 <div id="error-messages-signup"></div>
             </form>
         </div>
