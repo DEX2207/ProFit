@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProFit.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74c08e9fab4c88854d7a998323f9a4d1d7c39e06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3af99d3cebf9ab2f74950004a9b0ba7be07f3fb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProFit.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProFit.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

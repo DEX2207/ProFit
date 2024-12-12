@@ -8,7 +8,7 @@ function updatePriceValues(){
     document.getElementById('adult-price-values').innerText=`${adultMin}-${adultMax}`;
 }
 const sortSelect=document.getElementById('sort-options');
-const productContainer=document.querySelector('.container-categories')
+const productContainer=document.querySelector('.container-product')
 
 sortSelect.addEventListener('change',() =>{
    const sortOption=sortSelect.value;
@@ -18,23 +18,23 @@ sortSelect.addEventListener('change',() =>{
    products.sort((a,b)=>{
       switch (sortOption){
           case 'price-adult-asc':{
-              const priceA=parseFloat(a.getElementById('price'));
-              const priceB=parseFloat(b.getElementById('price'));
+              const priceA=parseFloat(a.querySelector('.price'));
+              const priceB=parseFloat(b.querySelector('.price'));
               return priceA-priceB;
           }
           case 'price-adult-desc':{
-              const priceA=parseFloat(a.getElementById('price'));
-              const priceB=parseFloat(b.getElementById('price'));
+              const priceA=parseFloat(a.querySelector('.price'));
+              const priceB=parseFloat(b.querySelector('.price'));
               return priceB-priceA;
           }
           case 'days-asc':{
-              const priceA=parseFloat(a.getElementById('price'));
-              const priceB=parseFloat(b.getElementById('price'));
+              const priceA=parseInt(a.querySelector('.validPer'));
+              const priceB=parseInt(b.querySelector('.validPer'));
               return priceA-priceB;
           }
           case 'days-desc':{
-              const priceA=parseFloat(a.getElementById('validPer'));
-              const priceB=parseFloat(b.getElementById('validPer'));
+              const priceA=parseInt(a.querySelector('.validPer'));
+              const priceB=parseInt(b.querySelector('.validPer'));
               return priceB-priceA;
           }
           default:

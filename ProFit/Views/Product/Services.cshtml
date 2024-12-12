@@ -37,7 +37,7 @@
                             <label for="meal-type-3">Три месяца</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="meal-type-4" value="NoMeals" class="custom-checkbox"5>
+                            <input type="checkbox" id="meal-type-4" value="NoMeals" class="custom-checkbox">
                             <label for="meal-type-4">Шесть месяцев</label>
                         </div>
                         <div>
@@ -81,7 +81,7 @@
                                     <h2>@item.Name</h2>
                                     @if (item.Type == Type.Subscription)
                                     {
-                                        <h2 class="validPer">На @item.ValidityPeriod дней</h2>
+                                        <h2>На <div class="validPer">@item.ValidityPeriod</div> дней</h2>
                                     }
                                 </div>
                                 <table>

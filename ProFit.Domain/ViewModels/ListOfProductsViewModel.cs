@@ -5,6 +5,8 @@ namespace ProFit.Domain.ViewModels;
 public class ListOfProductsViewModel
 {
     public List<ProductForListOfProductsViewModel> Products { get; set; }
+    
+    public Type Type { get; set; }
 }
 
 public class ProductForListOfProductsViewModel

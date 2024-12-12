@@ -30,6 +30,7 @@ public class ProductController:Controller
         ListOfProductsViewModel listProduct = new ListOfProductsViewModel
         {
             Products = _mapper.Map<List<ProductForListOfProductsViewModel>>(result.Data),
+            Type = type
         };
         return View(listProduct);
     }

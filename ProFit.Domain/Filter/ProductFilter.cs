@@ -7,4 +7,5 @@ public class ProductFilter
     public Type Type { get; set; }
     public double PriceAfultMin { get; set; }
     public double PriceAfultMax { get; set; }
+    
 }
