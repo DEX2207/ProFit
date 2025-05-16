@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProFit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3af99d3cebf9ab2f74950004a9b0ba7be07f3fb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+586f71f874d5962489d01f93f1cd890f063af5e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProFit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProFit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

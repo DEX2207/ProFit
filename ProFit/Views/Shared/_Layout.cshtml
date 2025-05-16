@@ -18,7 +18,9 @@
     <div class="button-header">
         @if (User.Identity.IsAuthenticated)
         {
-            <button class="button" type="button" name="button" onclick="window.location.href='@Url.Action("Logout","Home")'">Выйти</button>
+            <button class="button" type="button" onclick="window.location.href='@Url.Action("Profile","Home")'">Профиль</button>
+            <button class="button" type="button">Корзина</button>
+            <button class="button" type="button" name="button" onclick="window.location.href='@Url.Action("Logout", "Home")'">Выйти</button>
         }
         @if (!User.Identity.IsAuthenticated)
         {

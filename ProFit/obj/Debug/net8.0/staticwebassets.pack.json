@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProFit.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ProFit.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ProFit.dan2gsvzih.bundle.scp.css"
     },
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\home.css",
@@ -15,6 +15,10 @@
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\media_style.css",
       "PackagePath": "staticwebassets\\css\\media_style.css"
+    },
+    {
+      "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\profileStyle.css",
+      "PackagePath": "staticwebassets\\css\\profileStyle.css"
     },
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\css\\shared.css",
@@ -331,6 +335,10 @@
     {
       "Id": "D:\\INTER (E)\\1111\\учебная практика\\ProFit\\ProFit\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProFit.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProFit.Microsoft.AspNetCore.StaticWebAssets.props",

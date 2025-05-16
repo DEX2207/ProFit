@@ -145,3 +145,6 @@ D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\MailKit.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\MimeKit.dll
 D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\bin\Debug\net8.0\ProFit.staticwebassets.endpoints.json
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\INTER (E)\1111\учебная практика\ProFit\ProFit\obj\Debug\net8.0\staticwebassets\msbuild.ProFit.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

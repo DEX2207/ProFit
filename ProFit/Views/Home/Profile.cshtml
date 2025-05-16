@@ -1,0 +1,27 @@
+@model ProFit.Domain.ViewModels.ProfileViewModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Профиль пользователя";
+}
+<link rel="stylesheet" href="~/css/ProfileStyle.css"/>
+<div class="profile-container">
+    <h1>Профиль</h1>
+
+    <div class="profile-field">
+        <label>Логин:</label>
+        <div class="value">@Model.Login</div>
+    </div>
+
+    <div class="profile-field">
+        <label>Электронная почта:</label>
+        <div class="value">@Model.Email</div>
+    </div>
+
+    <div class="profile-field">
+        <label>Дата регистрации:</label>
+        <div class="value">@Model.CreatedAt</div>
+    </div>
+    <div style="margin-top: 20px;">
+        <a asp-controller="Categories" asp-action="Categories" class="btn btn-primary" style="padding: 10px 20px; text-decoration: none; color: white; background-color: #333333; border: none; border-radius: 5px;">Перейти в каталог товаров</a>
+    </div>
+</div>

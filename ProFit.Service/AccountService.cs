@@ -254,4 +254,13 @@ public class AccountService:IAccountService
             };
         }
     }
+
+    public User GetUserByEmail(string email)
+    {
+        if (string.IsNullOrEmpty(email))
+            throw new ArgumentException("Email cannot be null or empty", nameof(email));
+        var user = _userStorage.GetAll().FirstOrDefault(u=>u.Email== email);
+        User users = _mapper.Map<User>(user);
+        return users;
+    }
 }

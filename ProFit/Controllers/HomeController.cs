@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using ProFit.Domain.Models;
+using ProFit.Domain.ViewModels;
 using ProFit.Service;
 using ProFit.Service.Interfaces;
 
@@ -161,5 +162,25 @@ public class HomeController : Controller
         {
             return StatusCode(500, ex.Message);
         }
+    }
+
+    public IActionResult Profile()
+    {
+        if (User.Identity.IsAuthenticated)
+        {
+            var email = User.Identity.Name;
+            var user = _accountService.GetUserByEmail(email);
+            if (user != null)
+            {
+                var model = new ProfileViewModel
+                {
+                    Login = user.Login,
+                    Email = user.Email,
+                    CreatedAt = user.CreatedAt
+                };
+                return View(model);
+            }
+        }
+        return RedirectToAction("Login", "Account");
     }
 }
